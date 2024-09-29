@@ -9,6 +9,7 @@ import org.oberon.oss.chess.base.ChessColor;
  * @author Fabien H. Dumay
  * @since 1.0.0
  */
+@SuppressWarnings("unused")
 public interface FieldInformation {
     /**
      * Returns the color of the field.

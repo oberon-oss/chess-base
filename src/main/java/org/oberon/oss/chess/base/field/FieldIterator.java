@@ -21,6 +21,7 @@ public interface FieldIterator<F extends FieldInformation> extends Iterator<F> {
      * @throws UnsupportedOperationException If not supported by the implementing class.
      * @since 1.0.0
      */
+    @SuppressWarnings("unused")
     default void skipFields(int fieldsToSkip) {
         throw new UnsupportedOperationException("skipFields");
     }

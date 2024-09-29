@@ -13,6 +13,7 @@ import java.util.NoSuchElementException;
  * @author Fabien H. Dumay
  * @since 1.0.0
  */
+@SuppressWarnings("unused")
 @Log4j2
 public class FieldIteratorImpl implements FieldIterator<FieldInformation> {
     private final List<ChessField> fields;

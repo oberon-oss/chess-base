@@ -7,9 +7,9 @@ on:
   release:
     types: [created]
   push:
-    branches: [ "main", "develop-*" ]
+    branches: [ "main", "master", "develop-*" ]
   pull_request:
-    branches: [ "main", "develop-*" ]
+    branches: [ "main", "master", "develop-*" ]
     
 jobs:
   build:

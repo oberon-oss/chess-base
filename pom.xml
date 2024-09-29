@@ -17,6 +17,9 @@
         <jetbrains.annotation.version>23.0.0</jetbrains.annotation.version>
         <lombok.version>1.18.34</lombok.version>
         <apache.log4j.version>2.23.1</apache.log4j.version>
+
+        <sonar.organization>oberon-oss</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
 

@@ -7,7 +7,7 @@ on:
   release:
     types: [created]
   push: 
-    branches: [master develop-1]
+    branches: [master develop-*]
 jobs:
   build:
 

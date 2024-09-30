@@ -9,7 +9,7 @@ on:
   push: 
     branches: ['master','develop-*']
 jobs:
-  Analysis:
+  sonar-cloud:
     runs-on: ubuntu-latest
     steps:
       - name: Analyze with SonarCloud
@@ -26,7 +26,8 @@ jobs:
             -Dsonar.organization=oberon-oss
           projectBaseDir: .
 
-  build:
+  deploy-maven-artifacts:
+    needs: sonar-cloud
     runs-on: ubuntu-latest
     permissions:
       contents: read
